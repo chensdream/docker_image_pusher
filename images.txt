@@ -7,4 +7,5 @@
 #--platform=linux/arm64 flink:1.19.1-scala_2.12-java8
 #k8s.gcr.io/kubernetes-zookeeper:1.0-3.4.10
 #rancher/mirrored-library-busybox:1.36.1
-docker.io/bitnami/kafka:2.3.0-debian-9-r4
+--platform=linux/arm64 docker.io/bitnami/kafka:2.3.0-debian-9-r4
+--platform=linux/arm64 k8s.gcr.io/kubernetes-zookeeper:1.0-3.4.10
