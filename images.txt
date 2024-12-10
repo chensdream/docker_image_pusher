@@ -8,7 +8,10 @@
 #k8s.gcr.io/kubernetes-zookeeper:1.0-3.4.10
 #rancher/mirrored-library-busybox:1.36.1
 #--platform=linux/arm64 bitnami/kafka:3.4.1-debian-12-r38
---platform=linux/arm64 bitnami/zookeeper:3.9.1
-bitnami/kafka:3.4.1-debian-12-r38
-bitnami/zookeeper:3.9.1
+#--platform=linux/arm64 bitnami/zookeeper:3.9.1
+#20241209
+#bitnami/kafka:3.4.1-debian-12-r38
+#bitnami/zookeeper:3.9.1
+#20241210
+-platform=linux/arm64 bitnami/kafka:3.4.1-debian-12-r38
 
