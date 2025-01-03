@@ -13,4 +13,10 @@
 #bitnami/kafka:3.4.1-debian-12-r38
 #bitnami/zookeeper:3.9.1
 #20241210
---platform=linux/arm64 bitnami/kafka:3.8.0-debian-12-r7
+#--platform=linux/arm64 bitnami/kafka:3.8.0-debian-12-r7
+
+#20250103
+--platform=linux/arm64 prom/prometheus:v3.1.0
+--platform=linux/arm64 prom/node-exporter:v1.8.2
+--platform=linux/arm64 grafana/grafana:11.4.0
+
