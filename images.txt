@@ -26,4 +26,4 @@
 #grafana/grafana:11.4.0
 
 #20250123
-docker.io/vesoft/nebula-metad:v3.8.0
+--platform=linux/arm64 docker.io/vesoft/nebula-metad:v3.8.0
