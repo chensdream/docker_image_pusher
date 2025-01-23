@@ -16,11 +16,14 @@
 #--platform=linux/arm64 bitnami/kafka:3.8.0-debian-12-r7
 
 #20250103
---platform=linux/arm64 prom/prometheus:v3.1.0
---platform=linux/arm64 prom/node-exporter:v1.8.2
---platform=linux/arm64 grafana/grafana:11.4.0
+#--platform=linux/arm64 prom/prometheus:v3.1.0
+#--platform=linux/arm64 prom/node-exporter:v1.8.2
+#--platform=linux/arm64 grafana/grafana:11.4.0
 
 #20250121
-prom/prometheus:v3.1.0
-prom/node-exporter:v1.8.2
-grafana/grafana:11.4.0
+#prom/prometheus:v3.1.0
+#prom/node-exporter:v1.8.2
+#grafana/grafana:11.4.0
+
+#20250123
+docker.io/vesoft/nebula-metad:v3.8.0
