@@ -32,5 +32,5 @@
 #docker.io/vesoft/nebula-console:v3.6.0
 
 #20250211
-azul/zulu-openjdk:11
-azul/zulu-openjdk:17
+--platform=linux/arm64 azul/zulu-openjdk:11
+--platform=linux/arm64 azul/zulu-openjdk:17
