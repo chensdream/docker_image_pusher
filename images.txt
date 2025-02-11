@@ -32,5 +32,8 @@
 #docker.io/vesoft/nebula-console:v3.6.0
 
 #20250211
---platform=linux/arm64 azul/zulu-openjdk:11
---platform=linux/arm64 azul/zulu-openjdk:17
+#--platform=linux/arm64 azul/zulu-openjdk:11
+#--platform=linux/arm64 azul/zulu-openjdk:17
+--platform=linux/arm64 python:3.9.13-slim
+python:3.9.13-slim
+
