@@ -40,5 +40,6 @@
 #20250212
 #milvusdb/milvus:hotfix-2.4.13-20241017-dde79796-arm64
 #--platform=linux/arm64 milvusdb/etcd:3.5.14-r1
---platform=linux/arm64 apachepulsar/pulsar:3.3.4
+#--platform=linux/arm64 apachepulsar/pulsar:3.3.4
+apachepulsar/pulsar:3.3.4
 
