@@ -34,6 +34,10 @@
 #20250211
 #--platform=linux/arm64 azul/zulu-openjdk:11
 #--platform=linux/arm64 azul/zulu-openjdk:17
---platform=linux/arm64 python:3.9.13-slim
-python:3.9.13-slim
+#--platform=linux/arm64 python:3.9.13-slim
+#python:3.9.13-slim
+
+#20250212
+milvusdb/milvus:hotfix-2.4.13-20241017-dde79796-arm64
+--platform=linux/arm64 milvusdb/etcd:3.5.14-r1
 
