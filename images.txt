@@ -51,5 +51,7 @@
 #--platform=linux/arm64 bitnami/rabbitmq:3.13.7-debian-12-r5
 
 #20250424
-openeuler/openeuler:24.03
---platform=linux/arm64 openeuler/openeuler:24.03
+#openeuler/openeuler:24.03
+#--platform=linux/arm64 openeuler/openeuler:24.03
+#20250425
+elastic/elasticsearch:7.8.1
