@@ -55,4 +55,4 @@
 #--platform=linux/arm64 openeuler/openeuler:24.03
 #20250425
 #elastic/elasticsearch:7.8.1
---platform=linux/arm64 apachepulsar/pulsar:3.0.7
+--platform=linux/arm64  vesoft/nebula-console:v3.8
