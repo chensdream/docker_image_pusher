@@ -56,7 +56,10 @@
 #20250425
 #elastic/elasticsearch:7.8.1
 #vesoft/nebula-console:v3.8
---platform=linux/arm64 vesoft/nebula-stats-exporter:v3.3.0
---platform=linux/arm64 vesoft/nebula-agent
-vesoft/nebula-operator:v1.8.1
---platform=linux/arm64 vesoft/nebula-operator:v1.8.1
+#--platform=linux/arm64 vesoft/nebula-stats-exporter:v3.3.0
+#--platform=linux/arm64 vesoft/nebula-agent
+#vesoft/nebula-operator:v1.8.1
+#--platform=linux/arm64 vesoft/nebula-operator:v1.8.1
+#2025060701
+vesoft/nebula-alpine:latest
+--platform=linux/arm64 vesoft/nebula-alpine:latest
