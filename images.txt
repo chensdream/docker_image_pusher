@@ -61,5 +61,9 @@
 #vesoft/nebula-operator:v1.8.1
 #--platform=linux/arm64 vesoft/nebula-operator:v1.8.1
 #2025060701
-vesoft/nebula-alpine:latest
---platform=linux/arm64 vesoft/nebula-alpine:latest
+#vesoft/nebula-alpine:latest
+#--platform=linux/arm64 vesoft/nebula-alpine:latest
+#20250718
+apache/doris:operator-latest
+--platform=linux/arm64 apache/doris:operator-latest
+
