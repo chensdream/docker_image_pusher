@@ -64,6 +64,7 @@
 #vesoft/nebula-alpine:latest
 #--platform=linux/arm64 vesoft/nebula-alpine:latest
 #20250718
-apache/doris:base-2.0
---platform=linux/arm64 apache/doris:base-2.0
+#apache/doris:base-2.0
+#--platform=linux/arm64 apache/doris:base-2.0
+insideo/centos7-java8-build
 
